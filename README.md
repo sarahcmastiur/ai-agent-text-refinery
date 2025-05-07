@@ -46,17 +46,14 @@ Prompt: “Convert the following text into clear, concise bullet points.”
 
 ## File Directory Overview
     clarity_suite/
-    ├── app.py                # Streamlit web application
+    ├── streamlit_app.py      # Streamlit web application
     ├── workflow.py           # Command-line orchestrator
     ├── src/
-    │   └── agents/
-    │       ├── ClarityAgent.py
-    │       ├── ToneRewriterAgent.py
-    │       ├── TopicExtractorAgent.py
-    │       ├── EmotionAgent.py
-    │       ├── BulletPointAgent.py
-    ├── test_openai_key.py     # Test script for OpenAI key
-    ├── key.env                # Environment variable file for API key
+    │   └── ClarityAgent.py
+    │   └── ToneRewriterAgent.py
+    │   └── TopicExtractorAgent.py
+    │   └── EmotionAgent.py
+    │   └── BulletPointAgent.py
     ├── README.Rmd             # This file
 
 
