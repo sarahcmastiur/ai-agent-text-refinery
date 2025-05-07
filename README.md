@@ -45,7 +45,7 @@ Prompt: “Convert the following text into clear, concise bullet points.”
 
 
 ## File Directory Overview
-    clarity_suite/
+    ai-agent-text-refinery/
     ├── streamlit_app.py      # Streamlit web application
     ├── workflow.py           # Command-line orchestrator
     ├── src/
