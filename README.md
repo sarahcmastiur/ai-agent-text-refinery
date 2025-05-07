@@ -4,7 +4,7 @@ Text Refinery is a multi-agent text processing tool that transforms messy or unp
 # LLM-Powered Agent Lineup
 This system consists of five modular agents, each leveraging OpenAI's GPT API to perform targeted transformations on user-provided text.
 
-## 1. ClarityAgent – Improve Grammar & Clarity
+### 1. ClarityAgent – Improve Grammar & Clarity
 Use Case: Enhances readability and professionalism by refining grammar, punctuation, and sentence structure.
 Prompt:
 “Improve the clarity and grammar of the following text without changing its meaning.”
