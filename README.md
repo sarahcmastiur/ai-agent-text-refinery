@@ -29,3 +29,39 @@ Prompt: “What is the overall emotional tone of the following text?”
 Use Case: Transforms lengthy or unstructured text into concise, easy-to-read bullet points.
 
 Prompt: “Convert the following text into clear, concise bullet points.”
+
+
+
+## User Workflow
+
+
+    User inputs text (e.g., email draft, article, report excerpt)
+      ↓
+    Agent Sequence:
+    Clarity improvement → Tone adjustment → Topic extraction → Emotion detection → Bullet point summarization
+      ↓
+    Final polished and analyzed output displayed in the app
+
+
+
+## File Directory Overview
+    clarity_suite/
+    ├── app.py                # Streamlit web application
+    ├── workflow.py           # Command-line orchestrator
+    ├── src/
+    │   └── agents/
+    │       ├── ClarityAgent.py
+    │       ├── ToneRewriterAgent.py
+    │       ├── TopicExtractorAgent.py
+    │       ├── EmotionAgent.py
+    │       ├── BulletPointAgent.py
+    ├── test_openai_key.py     # Test script for OpenAI key
+    ├── key.env                # Environment variable file for API key
+    ├── README.Rmd             # This file
+
+
+## Requirement
+- Python 3.8+
+- `streamlit`
+- `openai`
+- `python-dotenv` (for `.env` key loading)
